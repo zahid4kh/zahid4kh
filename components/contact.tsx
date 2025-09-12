@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Phone, Github } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 
 export function Contact() {
@@ -54,7 +54,12 @@ export function Contact() {
               </div>
 
               <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
-                <Github className="h-5 w-5 text-accent" />
+                <img
+                  height="24"
+                  width="24"
+                  src="https://cdn.simpleicons.org/github/currentColor"
+                  className="text-accent"
+                />
                 <div>
                   <p className="font-medium">GitHub</p>
                   <p className="text-sm text-muted-foreground">@zahid4kh</p>

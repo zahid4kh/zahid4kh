@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 const projects = [
@@ -18,6 +18,7 @@ const projects = [
     longDescription:
       "Desktop component library with file choosers, dialogs, and navigation. Features scrollable breadcrumbs, file filtering, and Material3 integration.",
     version: "v1.4.0",
+    code: "https://github.com/zahid4kh/deskit",
     year: "2025",
     tags: ["Kotlin", "Jetpack Compose", "Desktop", "UI Library"],
     platform: "JitPack",
@@ -30,6 +31,7 @@ const projects = [
     longDescription:
       "Neo-Brutalist design UI components for Android. Includes 15+ custom components: buttons, text fields, cards, sliders, and dropdowns with bold geometric styling.",
     version: "v1.0.9",
+    code: "https://github.com/zahid4kh/neobrutal-lib",
     year: "2024",
     tags: ["Kotlin", "Jetpack Compose", "Android", "UI Components"],
     platform: "JitPack",
@@ -40,6 +42,7 @@ const projects = [
     title: "SumPDF",
     description: "Desktop PDF Manager",
     version: "v1.3.1",
+    code: "https://github.com/zahid4kh/sumpdf",
     longDescription:
       "Full-featured PDF toolkit built with Compose for Desktop. Combines PDFs, converts documents (DOC/DOCX/ODT/SVG/Images), splits by range, and reorders pages. Linux APT repository distribution.",
     year: "2025",
@@ -52,6 +55,7 @@ const projects = [
     title: "Kached",
     description: "Code Snippet Manager",
     version: "v1.0.1",
+    code: "https://github.com/zahid4kh/kached",
     longDescription:
       "Offline code snippet manager with syntax highlighting for 17+ languages. Export to multiple formats, Material3 theming, and cross-platform desktop deployment.",
     year: "2025",
@@ -112,8 +116,16 @@ export function Projects() {
                     </Link>
                   </Button>
                   <Button asChild size="sm" variant="ghost">
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-3 w-3" />
+                    <Link
+                      href={project?.code}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        height="24"
+                        width="24"
+                        src="https://cdn.simpleicons.org/github"
+                      />
                       Code
                     </Link>
                   </Button>

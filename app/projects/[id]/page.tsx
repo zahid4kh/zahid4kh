@@ -3,13 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  ArrowLeft,
-  Github,
-  ExternalLink,
-  Calendar,
-  Package,
-} from "lucide-react";
+import { ArrowLeft, Calendar, Package } from "lucide-react";
 
 const projects = {
   deskit: {
@@ -299,7 +293,6 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Github className="mr-2 h-4 w-4" />
                   View Source Code
                 </Link>
               </Button>
