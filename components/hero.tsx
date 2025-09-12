@@ -44,12 +44,13 @@ export function Hero() {
               href="https://github.com/zahid4kh"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center gap-5"
             >
               <img
                 height="24"
                 width="24"
-                className="text-accent"
                 src="https://cdn.simpleicons.org/github/currentColor"
+                alt="GitHub"
               />
               GitHub
             </Link>
