@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: "Zahid Khalilov - Developer",
   description:
     "Portfolio of Zahid Khalilov - Building things for the joy of creation",
+  keywords: ["Zahid Khalilov", "Zahid", "Portfolio", "Developer", "Software"],
+  authors: [{ name: "Zahid Khalilov" }],
+  creator: "Zahid Khalilov",
+  publisher: "Zahid Khalilov",
 };
 
 export default function RootLayout({
