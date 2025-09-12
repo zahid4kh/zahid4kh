@@ -36,16 +36,6 @@ export function Contact() {
               </div>
 
               <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
-                <Phone className="h-5 w-5 text-accent" />
-                <div>
-                  <p className="font-medium">Phone</p>
-                  <p className="text-sm text-muted-foreground">
-                    +49 176 73550562
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
                 <MapPin className="h-5 w-5 text-accent" />
                 <div>
                   <p className="font-medium">Location</p>
@@ -53,7 +43,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
+              <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg md:col-span-2">
                 <img
                   height="24"
                   width="24"
