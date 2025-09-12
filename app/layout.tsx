@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Zahid Khalilov" }],
   creator: "Zahid Khalilov",
   publisher: "Zahid Khalilov",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
