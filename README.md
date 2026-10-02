@@ -34,6 +34,12 @@ I build desktop apps, Android libraries and web tools, mostly with Kotlin, Compo
 
 **[QODE](https://github.com/zahid4kh/QODE)**: Native code editor for Linux written in C++ and Qt 6. Has a project explorer, tabbed syntax-highlighted editor, integrated terminal and LSP support.
 
+<p>
+  <img src="media/qode/home-dark.png" width="230">
+  <img src="media/qode/editor-dark.png" width="230">
+  <img src="media/qode/editor-light.png" width="230">
+</p>
+
 **[SumPDF](https://github.com/zahid4kh/sumpdf)**: Merge, split, reorder and extract PDF pages, and convert images and documents to PDF. Built with Compose for Desktop.
 
 <p>
